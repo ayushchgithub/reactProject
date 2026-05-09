@@ -25,9 +25,7 @@ function App() {
       <Dock windowsState={windowsState} setWindowsState={setWindowsState} />
       { windowsState.github && <Github windowName="github" setWindowsState={setWindowsState} />}
       { windowsState.note && <Note windowName="note" setWindowsState={setWindowsState} />}
-      { windowsState.resume && <Resume windowName="resume" setWindowsState={setWindowsState} />}
-      { windowsState.spotify && <Spotify windowName="spotify" setWindowsState={setWindowsState} />}
-      { windowsState.cli && <Cli windowName="cli" setWindowsState={setWindowsState} />}
+      { windowsState.resume && <Resume windowName="resume" setWindowsState={setWindorun } />}
     </main>
   )
 }
